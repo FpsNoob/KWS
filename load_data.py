@@ -25,4 +25,8 @@ def load_samples(dirctory):
     print('Loading Completed.')
     return data_list, data_path
 
+if __name__ == '__main__':
+    dir=r'D:\test_data\no\0a2b400e_nohash_1.wav'
+    display(load_wav(dir))
+
 

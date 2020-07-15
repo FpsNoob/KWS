@@ -91,6 +91,9 @@ def split_10(data):
 
     return train, test, vali
 
+#def MFCC_2D(data):
+
+
 if __name__ == '__main__':
     data_dir = r'D:\test_data'
     label_dir = r'D:\WorkSpace\Python\KWS\words.txt'
